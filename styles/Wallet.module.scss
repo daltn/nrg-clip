@@ -1,0 +1,76 @@
+.container {
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid rgb(45, 44, 44);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navUser {
+  padding: 0px 20px;
+}
+
+.signedIn {
+  margin: 0 20px;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.signOut {
+  text-decoration: underline;
+  color: inherit;
+  margin-right: 10px;
+  padding: 10px;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(63, 6, 142);
+  }
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  background: linear-gradient(#fff, rgb(215, 235, 141));
+
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+}
+
+.sidebar {
+  flex-basis: 500px;
+  margin: 20px;
+}
+
+.balance {
+  font-size: 34px;
+  text-align: center;
+}
+
+.graph {
+  width: 100%;
+  max-width: 700px;
+  margin: 25px 20px;
+
+  @media only screen and (max-width: 600px) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
