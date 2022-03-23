@@ -2,6 +2,8 @@
 
 https://nrg-clip.netlify.app/
 
+https://github.com/daltn/nrg-clip
+
 A jobcoin wallet to send jobcoins and track your balance while inside a gradient background.
 
 Example address: `dalton`
